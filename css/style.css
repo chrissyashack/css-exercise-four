@@ -2,47 +2,22 @@ body {
   background-color: #dadada;
   font-family: sans-serif;
   font-size: 75%;
-  display: block;
-  margin: 20px auto;
+  display: inline-block;
+  margin: 10px;
   width: 90%;
 }
 
 h1 {
-  font-size: 1.5em;
-  font-family: sans-serif;
+  font-size: 2em;
   text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
 }
 
-h2 {
-  font-size: 2em;
+h2, h3, h4, h5 {
+  font-size: 1.5em;
   font-family: serif;
-  background-color: #fff;
-  background-image: url(images/baku.jpg);
-  background-repeat: no-repeat;
-}
-
-h3 {
-  font-size: 2em;
-  font-family: serif;
-  background-color: #fff;
-  background-image: url(images/london.png);
-  background-repeat: no-repeat;
-}
-
-h4 {
-  font-size: 2em;
-  font-family: serif;
-  background-color: #fff;
-  background-image: url(images/madrid.jpg);
-  background-repeat: no-repeat;
-}
-
-h5 {
-  font-size: 2em;
-  font-family: serif;
-  background-color: #fff;
-  background-image: url(images/rome.jpg);
-  background-repeat: no-repeat;
+  text-align: left;
 }
 
 div {
@@ -57,10 +32,6 @@ div {
   body {
     background-color: #000000
   }
-}
-
-h1 {
-  font-size: 4em;
 }
 
 @media screen (min-width: 60em) {
@@ -80,6 +51,42 @@ h1 {
 @media screen and (min-width: 1199px){
    div {
     margin: 1%;
-    width: 10%;
+    width: 20%;
   }
 }
+
+.baku {
+  background-color: #fff;
+  background-image: url(../images/baku.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 125%;
+  height: 200px;
+ }
+
+.london {
+   background-color: #fff;
+   background-image: url(../images/london.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 135%;
+   height: 200px;
+ }
+
+ .madrid {
+    background-color: #fff;
+    background-image: url(../images/madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 145%;
+    height: 200px;
+  }
+
+  .rome {
+     background-color: #fff;
+     background-image: url(../images/rome.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 145%;
+     height: 200px;
+   }
