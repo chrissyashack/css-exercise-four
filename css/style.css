@@ -51,20 +51,27 @@ table {
   box-sizing: border-box;
 }
 
+
 body {
-  background-color: #dadada;
+  background-color: none;
   font-family: sans-serif;
   font-size: 75%;
   display: inline-block;
   margin: 10px;
-  width: 90%;
+  width: 100%;
+}
+
+.container {
+	margin: 10px auto;
+	width: 90%;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   font-family: sans-serif;
   text-transform: uppercase;
+	padding: 20px;
 }
 
 h2, h3, h4, h5 {
@@ -76,9 +83,9 @@ h2, h3, h4, h5 {
 div {
   background-color: #dadada;
   float: left;
-  margin: 1% 0;
+  margin: auto;
   width: 100%;
-  padding: 20px 25px;
+  padding: 20px;
 }
 
 @media screen (min-width: 60em) {
@@ -101,7 +108,7 @@ div {
   }
 }
 
-@media screen and (min-width: 1199px){
+@media screen and (min-width: 1278px){
    div {
     margin: 1%;
     width: 20%;
@@ -130,8 +137,8 @@ div {
     background-color: #fff;
     background-image: url(../images/madrid.jpg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 145%;
+    background-position: left;
+    background-size: 150%;
     height: 200px;
   }
 
